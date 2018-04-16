@@ -17,6 +17,7 @@
 		184B598A208449590094F279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184B5988208449590094F279 /* LaunchScreen.storyboard */; };
 		184B5995208449590094F279 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B5994208449590094F279 /* AppTests.swift */; };
 		184B59A0208449EF0094F279 /* PiPiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B599F208449EF0094F279 /* PiPiView.swift */; };
+		184B59A220845A3C0094F279 /* SubClassPiPiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B59A120845A3C0094F279 /* SubClassPiPiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		184B5994208449590094F279 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		184B5996208449590094F279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184B599F208449EF0094F279 /* PiPiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPiView.swift; sourceTree = "<group>"; };
+		184B59A120845A3C0094F279 /* SubClassPiPiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubClassPiPiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				184B5986208449590094F279 /* Assets.xcassets */,
 				184B5988208449590094F279 /* LaunchScreen.storyboard */,
 				184B598B208449590094F279 /* Info.plist */,
+				184B59A120845A3C0094F279 /* SubClassPiPiView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184B5982208449580094F279 /* ViewController.swift in Sources */,
+				184B59A220845A3C0094F279 /* SubClassPiPiView.swift in Sources */,
 				184B5980208449580094F279 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,6 +624,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pipitim.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -638,6 +643,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pipitim.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
